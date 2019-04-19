@@ -48,8 +48,15 @@
   <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
 
   <style>
-      .hero {
+      .hero-main {
           background-image: url("./images/immeubles.jpeg");
+          background-size: cover;
+          background-position-x: center;
+          background-position-y: center;
+          background-attachment: fixed;
+      }
+      .hero-explore {
+          background-image: url("./images/explore.png");
           background-size: cover;
           background-position-x: center;
           background-position-y: center;
@@ -93,7 +100,7 @@
     </div>
   </header>
 
-  <div class="hero" role="banner">
+  <div class="hero hero-main" role="banner">
     <div class="hero__container">
       <h1 class="hero__white-background">Base Demande de Valeurs Foncières</h1>
       <!-- <p class="hero__white-background">Demande de valeurs foncières</p> -->
@@ -283,6 +290,12 @@
              </div>
            </div>
       </section>
+
+      <div class="hero hero-explore" role="banner">
+        <div class="hero__container">
+          <p><a href="http://r.etalab.studio/dvf/" target="_blank" class="button large">Explorer les données</a></p>
+        </div>
+      </div>
 
   </main>
 
